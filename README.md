@@ -9,7 +9,7 @@ This is a julia package for building simple Neural Network.
 ```{julia}
 using SimpleNeuralNetwork
 
-nn = SimpleNeuralNetwork([2, 3, 5, 1], act_fun = tanh) # This will give you a 2x3x5x1 neural network.
+nn = NeuralNetwork([2, 3, 5, 1], act_fun = tanh) # This will give you a 2x3x5x1 neural network.
 
 train!(nn, X, Y) # Train the neural network
 
